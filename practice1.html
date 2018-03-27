@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>personal detail form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+
+<body >
+
+  <div class="col-sm-3" >
+  </div>
+
+  <div class="col-md-6">
+
+<form>
+  <div class="well">
+
+   <div class="container">
+     <h1>PERSONAL DETAIL FORM </h1>
+   </div>
+    <hr>
+    <h6 class="form-inline">* are mandatory</h6>
+  
+<!--name-->
+    <div class="form-group"  style="color: rgb(678);">
+        <div class="form-row">
+          <div class="col col-sm-6">
+              <input for="focusedinput" type="text" class="form-control" placeholder="First name">
+          </div>
+
+          <div class="col col-sm-6">
+              <input for="focusedinput" type="text" class="form-control " placeholder="Last name">
+          </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+<!--date of birth-->
+    <div class="form-group">
+        <div class="form-row">
+            <div class="col col-sm-4">
+                 <div class="dropdown">
+                    <button for="focusedinput" class="btn btn-default btn-block dropdown-toggle" wdith=50% type="button" data-toggle="dropdown">DATE
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                     <li><a href="#">1</a></li>
+                     <li><a href="#">2</a></li>
+                     <li><a href="#">3</a></li>
+                     <li><a href="#">4</a></li>
+                    </ul>
+                 </div> <!--date ka khatma-->
+            </div>
+              <div class="col col-sm-4">
+                <div class="dropdown">
+                    <button for="focusedinput" class="btn btn-default btn-block dropdown-toggle" type="button" data-toggle="dropdown">MONTH
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                     <li><a href="#">jan </a></li>
+                     <li><a href="#">feb</a></li>
+                     <li><a href="#">march</a></li>
+                     <li><a href="#">april</a></li>
+                    </ul>
+                 </div> <!--month ka khatma-->
+              </div>
+               <div class="col col-sm-4">
+                <div class="dropdown">
+                    <button for="focusedinput" class="btn btn-default btn-block dropdown-toggle" type="button" data-toggle="dropdown">YEAR
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                     <li><a href="#">1996</a></li>
+                     <li><a href="#">1997</a></li>
+                     <li><a href="#">1998</a></li>
+                     <li><a href="#">1999</a></li>
+                    </ul>
+                 </div> <!--year ka khatma-->
+               </div>
+        </div>
+    </div>
+
+<br>
+<br>
+
+<!--gender-->
+
+<div class="form-group">
+    <div class="form-row ">
+     <div class="col col-sm-4">
+                <div class="dropdown">
+                    <button for="focusedinput" class="btn btn-default btn-block dropdown-toggle" type="button" data-toggle="dropdown">GENDER
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                     <li><a href="#">female</a></li>
+                     <li><a href="#">male</a></li>
+                     <li><a href="#">other</a></li>
+                    </ul>
+                 </div> <!--year ka khatma-->
+     </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+<!--address-->
+<div class="form-group">
+   <div class="form-row">
+    <div class="col col-md-9">
+       <input  for="focusedinput" type="text" class="form-control" id="inputAddress" placeholder="address">
+     </div>
+   
+      <div class="form-group col-md-3">
+        <input type="text" class="form-control" id="pin" placeholder="pin code">
+      </div>
+   </div>
+</div>
+
+
+<div class="form-group">
+    <div class="form-row">
+     <div class="col col-md-4">
+      <select class="form-control" id="City" >
+        <option selected>select city..</option>
+        <option> nagpur</option>
+        <option>mumbai</option>
+        <option>pune</option>
+      </select>
+     </div>
+
+     <div class="col col-md-4">
+      <select id="inputState" class="form-control">
+        <option selected>select state..</option>
+        <option>maharashtra</option>
+        <option>rajasthan</option>
+      </select>
+    </div>
+
+    <div class="col col-sm-4">
+           <select id="inputState" class="form-control">
+           <option selected>select country..</option>
+           <option>maharashtra</option>
+           <option>rajasthan</option>
+           <option>bla bla</option>
+           </select>
+        </div>
+
+    </div>
+</div>
+
+<br>
+<br>
+<br><br>
+
+<!--email-->
+<div class="form-group">
+    <div class="form-row">
+        <div class="col col-md-12">
+
+          <input type="email" class="col-sm-5 form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+        </div>
+  </div>
+</div>
+
+<!--password-->
+  <div class="form-group">
+    <div class="form-row">
+        <div class="col col-md-12">
+
+    <input type="password" class="form-control col-sm-3" id="exampleInputPassword1" placeholder="Password">
+        </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<!--check buton-->
+<div class="form-group">
+    <div class="form-row">
+        <div class="col col-md-8">
+           <div class="form-check">
+               <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                 <label class="form-check-label" for="exampleCheck1">I am not robot</label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br
+
+  <!--submit button-->
+  <div class="form-group">
+    <div class="form-row">
+        <div class="col col-md-4 ">
+           <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</div>
+  
+</form>
+ <hr>
+
+    <!--profile pic --> 
+    
+
+
+    <!--TEXT BOXES AND BUTTONS-->
+
+
+    </div><!---end of well-->
+    </div><!--end of column 2-->
+    <div class="col-md-3"></div>
+  </body>
+</html>
