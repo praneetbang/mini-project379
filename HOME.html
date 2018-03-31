@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HandMeDown.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+     padding: 10px;
+  	}
+  	footer a {
+      color: #f5f5f5;
+  	}
+  	.col-md-3{
+  		margin-left:95px;
+  		margin-right: 30px;
+  		text-align: left;
+  	}  
+	.carousel-inner img {
+      	width: 100%; /* Set width to 100% */
+      	margin: auto;
+      	min-height:200px;
+  	}
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  	@media (max-width: 600px) {
+  		.carousel-caption {
+  			display: none; 
+  		}
+  	}
+  	.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    }
+    .fa:hover {
+    opacity: 0.7;
+    }
+    .fa-facebook{
+      background: #3B5998;
+      color: white;
+    }
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="Home.html">HandMeDown</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Home.html">Home</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="form-control" size="50" placeholder="Search for books, authors, notes, stationary and more" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> My Account
+            <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">My Orders</a></li>
+              <li><a href="LOGIN.html">Login</a></li>
+              <li><a href="#">Help</a></li> 
+            </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" style="margin-top:80px" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="book.jpg" style="height: 500px" alt="Image">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="https://placehold.it/1200x400?text=Another Image Maybe" style="height: 500px" alt="Image">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<br>
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+    	<a href="">
+      		<div class="panel panel-primary">
+        		<div class="panel-heading">SEOND-HAND BOOKS</div>
+        			<div class="panel-body">
+        				<img src="BOOK.jpg" class="img-responsive" style="width:100%" alt="Image">
+        			</div>
+        			<div class="panel-footer">Buy Second-Hand Books</div>
+      		</div>
+  		</a>
+    </div>
+    <div class="col-sm-4">
+    	<a href=""> 
+      		<div class="panel panel-danger">
+        		<div class="panel-heading">STUDY MATERIAL</div>
+        		<div class="panel-body"><img src="notes.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        		<div class="panel-footer">Buy Hand written notes and study material</div>
+      		</div>
+      	</a>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">STATIONARY</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    
+    <div class="col-sm-6"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+    <div class="col-sm-6"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">BLACK FRIDAY DEAL</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+	<div class="row">
+		<div class="col-md-3">
+			<h5>HELP</h5><hr style="margin-top: 5px" width="180px" align="left">
+			<p>Payments</p><p>FAQs</p><p>Privacy Policies</p><p>Terms And Conditions</p>
+		</div>
+		<div class="col-md-3">
+			<h5>CONTACT US</h5><hr style="margin-top: 5px" width="180px" align="left">
+			<p><span class="glyphicon glyphicon-map-marker"></span>  Nagpur, India</p><p>Phone : +91-8600305211</p><p>Email : abc@xyz.com</p>
+		</div>
+		<div class="col-md-3" style="margin-left: 75px;margin-right: 10px">
+			<h5>CONNECT WITH US ON</h5>
+			<p style="margin-top: 40px">
+          		<a href="" class="fa fa-facebook"></a>
+          		<a href="" class="fa fa-twitter"></a>
+         	 	<a href="" class="fa fa-google"></a>
+          		<a href="" class="fa fa-linkedin"></a>
+       		 </p>
+      	</div>
+    </div><br>
+    <h5 align="center"> Copyright 2018. HandMeDown.com. All Rights Reserved</h5>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
